@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<template>
+    <div>
+        <v-data-table
+                :headers="headers"
+                :items="brands"
+                :pagination.sync="pagination"
+                :total-items="toltalBrands"
+                :loading="loading"
+                class="elevation-1"
+        >
+            <template slot="items" slot-scope="props">
+                <td class="text-xs-right">{{ props.item.id }}</td>
+                <td class="text-xs-right">{{ props.item.name }}</td>
+                <td class="text-xs-right"><img :src="props.item.image" alt=""></td>
+                <td class="text-xs-right">{{ props.item.letter }}</td>
+            </template>
+        </v-data-table>
+
+    </div>
+</template>
+<script>
+
+    export default {
+        name: "MyBrand",
+        data() {
+            return {
+                headers: [
+                    {text: "品牌id", value: "id", align: 'center', sortable: true},
+                    {text: "品牌名称", value: "name", align: 'center', sortable: false},
+                    {text: "品牌LOGO", value: "image", align: 'center', sortable: false},
+                    {text: "品牌首字母", value: "letter", align: 'center', sortable: true},
+                ],
+                brands: [],
+                pagination:{},
+                loading: false,
+            }
+        },
+        created() {
+            this.brands = [
+                {id: 2032, name: "OPPO", image:"1.jpg", letter: "O"},
+                {id: 2033, name: "飞利浦", image:"2.jpg", letter: "F"},
+                {id: 2034, name: "华为", image: "3.jpg", letter: "N"},
+                {id: 2035, name: "酷派", image: "4.jpg", letter: "K"},
+                {id: 2036, name: "魅族", image: "5.jpg", letter: "M"}
+
+            ];
+            this.toltalBrands=15;
+        }
+    }
+</script>
+<body>
+
+</body>
+</html>

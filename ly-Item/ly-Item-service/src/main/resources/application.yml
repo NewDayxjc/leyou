@@ -1,0 +1,20 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: item-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/yun6    #驱动可以略去，可以从url中推出
+    username: root
+    password: roots
+
+    hikari:
+      maximum-pool-size: 30
+      minimum-idle: 10
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
