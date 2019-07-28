@@ -16,12 +16,16 @@ zuul:
   prefix: /api # 添加路由前缀
   retryable: true
   routes:
+<<<<<<< HEAD
     item-service: /item/**  #将商品微服务映射到/item/**
     upload-service:
       path: /upload/**
       serviceId: upload-service
       strip-prefix: false
 
+=======
+    item-service: /item/**
+>>>>>>> 9c700ece80ce94ad4812eaf1a4d21747bedf3887
 
 hystrix:
   command:
@@ -31,7 +35,11 @@ hystrix:
           thread:
             timeoutInMillisecond: 50000 # 熔断超时时长：50000ms
 ribbon:
+<<<<<<< HEAD
   ConnectTimeout: 2000 # 连接超时时间(ms)
+=======
+  ConnectTimeout: 1000 # 连接超时时间(ms)
+>>>>>>> 9c700ece80ce94ad4812eaf1a4d21747bedf3887
   ReadTimeout: 3500 # 通信超时时间(ms)
   MaxAutoRetriesNextServer: 0 # 同一服务不同实例的重试次数
   MaxAutoRetries: 0 # 同一实例的重试次数

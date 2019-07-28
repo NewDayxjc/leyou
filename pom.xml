@@ -12,8 +12,11 @@
         <module>ly-gateway</module>
         <module>ly-Item</module>
         <module>ly-common</module>
+<<<<<<< HEAD
         <module>hello</module>
         <module>ly-uploads</module>
+=======
+>>>>>>> 9c700ece80ce94ad4812eaf1a4d21747bedf3887
     </modules>
     <packaging>pom</packaging>
     <name>leyou</name>

@@ -17,8 +17,12 @@ eureka:
       defaultZone: http://127.0.0.1:10086/eureka
   instance:
     prefer-ip-address: true
+<<<<<<< HEAD
     ip-address: 127.0.0.1
 ##打印输出语句
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+=======
+    ip-address: 127.0.0.1
+>>>>>>> 9c700ece80ce94ad4812eaf1a4d21747bedf3887

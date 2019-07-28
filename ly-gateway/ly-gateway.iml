@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
@@ -21,3 +22,6 @@
     </facet>
   </component>
 </module>
+=======
+<module type="JAVA_MODULE" version="4" />
+>>>>>>> 9c700ece80ce94ad4812eaf1a4d21747bedf3887

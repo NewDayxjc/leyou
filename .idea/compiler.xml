@@ -11,6 +11,7 @@
         <module name="ly-Item-interface" />
         <module name="ly-Item-service" />
         <module name="ly-registry" />
+<<<<<<< HEAD
         <module name="ly-uploads" />
       </profile>
     </annotationProcessing>
@@ -18,5 +19,9 @@
       <module name="hello" target="1.8" />
       <module name="ly-upload" target="1.8" />
     </bytecodeTargetLevel>
+=======
+      </profile>
+    </annotationProcessing>
+>>>>>>> 9c700ece80ce94ad4812eaf1a4d21747bedf3887
   </component>
 </project>

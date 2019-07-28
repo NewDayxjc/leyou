@@ -2,14 +2,20 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/hello" charset="UTF-8" />
+=======
+>>>>>>> 9c700ece80ce94ad4812eaf1a4d21747bedf3887
     <file url="file://$PROJECT_DIR$/ly-Item" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-Item/ly-Item-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-Item/ly-Item-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly-registry" charset="UTF-8" />
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/ly-uploads" charset="UTF-8" />
+=======
+>>>>>>> 9c700ece80ce94ad4812eaf1a4d21747bedf3887
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
