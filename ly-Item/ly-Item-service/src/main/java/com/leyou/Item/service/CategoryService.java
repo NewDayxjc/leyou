@@ -27,7 +27,6 @@ public class CategoryService {
         }
         return  list;
     }
-<<<<<<< HEAD
     public List<Category> queryByIds(List<Long> ids){
         List<Category> list = categoryMapper.selectByIdList(ids);
         if(CollectionUtils.isEmpty(list)){
@@ -35,6 +34,4 @@ public class CategoryService {
         }
         return  list;
     }
-=======
->>>>>>> 9c700ece80ce94ad4812eaf1a4d21747bedf3887
 }

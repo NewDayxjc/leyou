@@ -12,7 +12,6 @@ public enum ExceptionEnum {
     //如果枚举有多个对象，以逗号隔开，且只能放在枚举类最前面
     PRICE_CANNOT_BE_NULL(400,"价格不能为空"),
     CATEGORY_NOT_FOUND(404,"商品分类没查到"),
-<<<<<<< HEAD
     BRAND_NOT_FOUND(404,"品牌不存在"),
     BRAND_SAVE_ERROR(500,"新增品牌失败"),
     UPDATE_FILE_ERROR(500,"文件上传失败"),
@@ -20,18 +19,18 @@ public enum ExceptionEnum {
     SPEC_GROUP_NOT_FOUND(404,"商品规格组不存在"),
     SPEC_PARAM_NOT_FOUND(404,"商品规格参数不存在"),
     GOODS_NOT_FOUND(404,"商品不存在"),
-=======
+    GOODS_SAVE_ERROR(500,"商品增加失败"),
+    GOODS_DETAIL_NOT_FOUND(500,"商品详情不存在"),
+    GOODS_SKU_NOT_FOUND(500,"商品特性不存在"),
+    GOODS_STOCK_NOT_FOUND(500,"商品库存不存在"),
+    GOODS_UPDATE_ERROR(500,"更新商品失败"),
+    GOODS_ID_NOT_BE_NULL(400,"商品Id不能为空"),
 
->>>>>>> 9c700ece80ce94ad4812eaf1a4d21747bedf3887
     ;
     //枚举是只能有固定实体，可以做单例(只允许自己new)
 //    private static final ExceptionEnum ff=new ExceptionEnum(1,"sjk");sjk
     //简写
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 9c700ece80ce94ad4812eaf1a4d21747bedf3887
     private int code;
     private String msg;
+
 }
